@@ -11,17 +11,26 @@
 
 <body>
   <main>
+  <span class="project-name"> Projeto Integrador</span>
 <?php
 include './template/header.php';
 ?>
+
     <div class="banner">
+
       <div class="banner-text">
         <h1>
           <span>Facilite a Rotina!</span><br>
           Conheça o aplicativo que melhora a rotina da criança com TEA.
         </h1>
+        <p>Simplifique a vida de seu filho e promova uma rotina mais previsível e tranquila com nossa plataforma inovadora.
+           Nosso aplicativo permite uma colaboração eficaz entre pais e equipe escolar, fornecendo ferramentas
+           para estabelecer e manter rotinas de tarefas específicas para crianças com Transtorno do Espectro Autista (TEA)
+        </p>
+        <button><a href="/">Ver Mais</a></button>
       </div>
-      <img src="/" alt="banner image">
+      <img src="./src/images/puzzle.png" alt="banner image">
+
     </div>
   </main>
   <section class="about-tea">
