@@ -1,0 +1,15 @@
+/* import nunito */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+
+:root {
+/* color variables */
+  --blue-primary: #1EA4D9;
+  --blue-secondary: #85C8F2;
+  --green-primary: #1AD993;
+  --yellow-primary: #F2CB05;
+  --red-primary: #F26457;
+  --purple-primary: #A847BB;
+  --white: #F5F5F5;
+  --black: #434343; 
+}
