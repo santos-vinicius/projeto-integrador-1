@@ -11,21 +11,9 @@
 
 <body>
   <main>
-    <nav>
-      <img src="/" alt="Logo TEAssist">
-      <div>
-        <ul>
-          <li>Sobre</li>
-          <li>Aplicativo</li>
-          <li>Equipe</li>
-        </ul>
-      </div>
-      <button>
-        <img src="/" alt="github icon">
-        <a href="/">Apoie</a>
-      </button>
-    </nav>
-
+<?php
+include './template/header.php';
+?>
     <div class="banner">
       <div class="banner-text">
         <h1>

@@ -1,15 +1,29 @@
 /* import fonts: nunito and baloo 2*/
-@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
 :root {
-/* color variables */
-  --blue-primary: #1EA4D9;
-  --blue-secondary: #85C8F2;
-  --green-primary: #1AD993;
-  --yellow-primary: #F2CB05;
-  --red-primary: #F26457;
-  --purple-primary: #A847BB;
-  --white: #F5F5F5;
-  --black: #434343; 
+  /* color variables */
+  --blue-primary: #1ea4d9;
+  --blue-secondary: #85c8f2;
+  --green-primary: #1ad993;
+  --yellow-primary: #f2cb05;
+  --red-primary: #f26457;
+  --purple-primary: #a847bb;
+  --white: #f5f5f5;
+  --black: #434343;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* ESTILIZÇÂO HEADER */
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 20px;
+  flex-direction: column;
+  height: 500px;
+  background-color: var(--blue-primary);
 }

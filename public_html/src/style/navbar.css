@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+nav {
+  width: 90%;
+  padding: 20px 30px;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav .align-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+nav .align-logo img {
+  height: 70px;
+  width: 90px;
+  object-fit: cover;
+}
+nav .align-logo p {
+  margin: 0px;
+  color: #1ea4d9;
+  font-weight: 800;
+  font-size: 2rem;
+  font-family: "Baloo 2", sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+
+  list-style: none;
+}
+nav ul li {
+  font-family: "Nunito";
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+nav button {
+  border-radius: 10px;
+  padding: 12px 15px;
+  border: none;
+  background-color: #585858;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+nav button img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+nav button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
