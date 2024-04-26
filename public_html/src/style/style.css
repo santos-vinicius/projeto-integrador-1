@@ -18,7 +18,30 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
 /* ESTILIZÇÂO HEADER */
+
+
+.cor-fundo{
+  
+  height: auto;
+  max-width: 100%;
+  padding: 0 0 3rem 0 ;
+ 
+  background-color: var(--blue-primary);
+}
+.container-main{
+  max-width: 75rem;
+  margin: 0 auto 0 auto; 
+  padding: 0rem 3rem 0 3rem ;
+}
+
+.container{
+  max-width: 75rem;
+  margin: 0 auto 0 auto; 
+  padding: 0rem 3rem 0 3rem ;
+}
+
 main {
   display: flex;
   align-items: center;
@@ -26,10 +49,9 @@ main {
   padding: 20px 20px;
   flex-direction: column;
   gap: 10px;
-  min-height: 550px;
-  height: auto;
-  background-color: var(--blue-primary);
+  
 }
+
 main .project-name {
   min-width: 86%;
   width: auto;
@@ -42,22 +64,25 @@ main .project-name {
   align-items: center;
   justify-content: flex-end;
 }
+
 main .banner {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
   padding: 50px 30px;
-  flex-wrap: wrap;
+
   width: auto;
   gap: 10px;
   max-width: 90%;
 }
+
 main .banner img {
   height: 350px;
   width: 500px;
   border-radius: 15px;
   object-fit: cover;
 }
+
 main .banner-text {
   display: flex;
   align-items: flex-start;
@@ -67,12 +92,14 @@ main .banner-text {
   max-width: 50%;
   width: auto;
 }
+
 main .banner-text h1 {
   color: var(--white);
   font-family: "Baloo 2";
   line-height: 35px;
   font-size: 2.2rem;
 }
+
 main .banner-text span {
   color: var(--yellow-primary);
   font-size: 2.7rem;
@@ -88,12 +115,14 @@ main .banner-text p {
   width: auto;
   margin: 0;
 }
+
 main .banner-text button {
   padding: 10px 25px;
   background-color: var(--white);
   border: none;
   border-radius: 10px;
 }
+
 main .banner-text button a {
   text-decoration: none;
   color: var(--blue-primary);
