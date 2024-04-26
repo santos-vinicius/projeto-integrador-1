@@ -10,29 +10,32 @@
 </head>
 
 <body>
-  <main>
-  <span class="project-name"> Projeto Integrador</span>
-<?php
-include './template/header.php';
-?>
 
-    <div class="banner">
-
-      <div class="banner-text">
-        <h1>
-          <span>Facilite a Rotina!</span><br>
-          Conheça o aplicativo que melhora a rotina da criança com TEA.
-        </h1>
-        <p>Simplifique a vida de seu filho e promova uma rotina mais previsível e tranquila com nossa plataforma inovadora.
-           Nosso aplicativo permite uma colaboração eficaz entre pais e equipe escolar, fornecendo ferramentas
-           para estabelecer e manter rotinas de tarefas específicas para crianças com Transtorno do Espectro Autista (TEA)
-        </p>
-        <button><a href="/">Ver Mais</a></button>
-      </div>
-      <img src="./src/images/puzzle.png" alt="banner image">
-
-    </div>
-  </main>
+  <div class="cor-fundo">
+        <main class="container-main">
+          <div>
+            <span class="project-name"> Projeto Integrador</span>
+            <?php
+              include './template/header.php';
+            ?>  
+            <div class="banner">
+              <div class="banner-text">
+                <h1>
+                  <span>Facilite a Rotina!</span><br>
+                  Conheça o aplicativo que melhora a rotina da criança com TEA.
+                </h1>
+                <p>Simplifique a vida de seu filho e promova uma rotina mais previsível e tranquila com nossa plataforma inovadora.
+                  Nosso aplicativo permite uma colaboração eficaz entre pais e equipe escolar, fornecendo ferramentas
+                  para estabelecer e manter rotinas de tarefas específicas para crianças com Transtorno do Espectro Autista (TEA)
+                </p>
+                <button><a href="/">Ver Mais</a></button>
+              </div>
+              <img src="./src/images/puzzle.png" alt="banner image">
+            </div>
+          </div>
+        </main>
+  </div>
+  <div class="container">
   <section class="about-tea">
     <h2>Sobre o TEA</h2>
     <div>
@@ -55,6 +58,7 @@ include './template/header.php';
       <img src="/" alt="app logo">
     </div>
   </section>
+</div>
 </body>
 
 </html>
