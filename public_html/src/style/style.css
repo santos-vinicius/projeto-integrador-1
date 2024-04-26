@@ -11,6 +11,7 @@
   --purple-primary: #a847bb;
   --white: #f5f5f5;
   --black: #434343;
+  --gray:  #585858;
 }
 * {
   padding: 0px;
@@ -32,7 +33,7 @@ main {
 main .project-name {
   min-width: 86%;
   width: auto;
-  color: #f5f5f5;
+  color: var(--white);
   font-size: 1.2rem;
   font-family: "Baloo 2";
   font-weight: 800;
@@ -67,18 +68,18 @@ main .banner-text {
   width: auto;
 }
 main .banner-text h1 {
-  color: #f5f5f5;
+  color: var(--white);
   font-family: "Baloo 2";
   line-height: 35px;
   font-size: 2.2rem;
 }
 main .banner-text span {
-  color: #f2cb05;
+  color: var(--yellow-primary);
   font-size: 2.7rem;
 }
 
 main .banner-text p {
-  color: #f5f5f5;
+  color: var(--white);
   font-family: "Baloo 2";
   line-height: 20px;
   text-align: justify;
@@ -89,13 +90,13 @@ main .banner-text p {
 }
 main .banner-text button {
   padding: 10px 25px;
-  background-color: #f5f5f5;
+  background-color: var(--white);
   border: none;
   border-radius: 10px;
 }
 main .banner-text button a {
   text-decoration: none;
-  color: #1ea4d9;
+  color: var(--blue-primary);
   font-family: "Baloo 2";
   font-weight: 700;
   font-size: 1.3rem;
