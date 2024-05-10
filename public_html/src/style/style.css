@@ -105,21 +105,25 @@ main .banner-text p {
   margin: 0;
 }
 
-main .banner-text button {
-  padding: 10px 25px;
-  background-color: var(--white);
-  border: none;
-  border-radius: 10px;
-}
-
-main .banner-text button a {
+main .banner-text a {
   text-decoration: none;
   color: var(--blue-primary);
   font-family: "Baloo 2";
   font-weight: 700;
+  padding: 10px 25px;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  transition: 0.4s all ease-in-out;
+  border-radius: 10px;
   font-size: 1.3rem;
 }
 
+main .banner-text a:hover {
+  transition: 0.4s all ease-in-out;
+  background-color: var(--blue-primary);
+  border: 1px solid var(--white);
+  color: var(--white);
+}
 /* ESTILIZAÇAO MAIN */
 .container {
   margin-top: 50px;
@@ -207,7 +211,7 @@ main .banner-text button a {
   text-align: justify;
 }
 
-.container .about-teassist .align-itens button {
+.container .about-teassist .align-itens a {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -215,21 +219,24 @@ main .banner-text button a {
   padding: 9px 30px;
   background-color: var(--blue-primary);
   border-radius: 5px;
-  border: none;
+  border: 1px solid var(--blue-primary);
   margin-top: 8px;
-}
-
-.container .about-teassist .align-itens button img {
-  height: 20px;
-  width: 20px;
-  object-fit: cover;
-}
-
-.container .about-teassist .align-itens button a {
+  transition: 0.4s ease-in-out all;
   text-decoration: none;
   color: var(--white);
   font-weight: 700;
+  font-family: "Baloo 2";
   font-size: 0.9rem;
+}
+
+.container .about-teassist .align-itens a:hover {
+  background-color: transparent;
+  transition: 0.4s ease-in-out all;
+  color: var(--blue-primary);
+}
+
+.container .about-teassist .align-itens a i {
+  font-size: 1.2rem;
 }
 
 .container .about-teassist img {
@@ -237,20 +244,153 @@ main .banner-text button a {
   height: 300px;
   object-fit: cover;
 }
-/* ESTILIZACAO FOOTER */
-footer {
-  background-color: var(--blue-primary);
+
+/* ESTILIZACAO SERVIÇOS */
+.container .services {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px;
+  padding: 0px 40px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container .services h2 {
+  font-family: "Baloo 2";
+  color: var(--blue-primary);
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.container .services .align-itens {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container .services .align-itens .card-service {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 50px 0px;
-  margin-top: 90px;
-  border-radius: 10px 10px 0px 0px;
+  flex-direction: column;
+  background-color: var(--white);
+  width: 200px;
+  gap: 6px;
+  height: 200px;
+  border: 1px solid var(--white);
+  border-radius: 15px;
 }
-footer p {
+
+.container .services .align-itens .card-service:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+  transition: 400ms step-end(3);
+  border: 1px solid var(--blue-primary);
+}
+
+.container .services .align-itens .card-service img {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+}
+
+.container .services .align-itens .card-service p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
   font-family: "Baloo 2";
-  color: var(--white);
-  font-weight: 800;
-  
-  font-size: 1.5rem;
+  line-height: 15px;
+}
+
+/* ESTILIZAÇAO PROJETO */
+.container .project {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 25px;
+  padding: 0px 40px;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container .project h2 {
+  font-family: "Baloo 2";
+  color: var(--blue-primary);
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.container .project .align-itens {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 30px;
+}
+
+.container .project .align-itens img {
+  width: 420px;
+  height: auto;
+  border: 8px solid var(--blue-primary);
+  border-radius: 10px;
+}
+
+.container .project .align-itens .text-project {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-direction: column;
+}
+
+.container .project .align-itens .text-project p {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Nunito";
+  line-height: 23px;
+  text-align: justify;
+}
+
+.container .project .align-itens .text-project p:nth-child(2) {
+  text-align: start;
+  margin: 0;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Nunito";
+  line-height: 23px;
+  text-align: justify;
+}
+
+.container .project .align-itens .text-project span {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Baloo 2";
+}
+
+.container .project .align-itens .text-project a {
+  display: flex;
+  align-items: center;
+
+  justify-content: center;
+  gap: 5px;
+  padding: 9px 30px;
+  background-color: var(--blue-primary);
+  border-radius: 5px;
+  border: 1px solid var(--blue-primary);
+  margin-top: 8px;
+  text-decoration: none;
+  color: white;
+  transition: 0.4s all ease-in-out;
+  font-family: "Nunito";
+}
+
+.container .project .align-itens .text-project a:hover {
+  transition: 0.4s all ease-in-out;
+  background-color: transparent;
+  color: var(--blue-primary);
 }
