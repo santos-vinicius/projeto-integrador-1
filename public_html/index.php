@@ -28,30 +28,30 @@ include './template/header.php';
               Nosso aplicativo permite uma colaboração eficaz entre pais e equipe escolar, fornecendo ferramentas
               para estabelecer e manter rotinas de tarefas específicas para crianças com Transtorno do Espectro Autista (TEA)
             </p>
-            <a href="/">Ver Mais</a>
+            <a href="#aplicativo">Ver Mais</a>
           </div>
-            <img src="./src/images/puzzle.png" alt="banner image">
+            <img src="./src/images/Cadastrar.jpg" alt="banner image">
         </div>
     </main>
   </div>
-  <div class="container">
+  <div class="container" id="sobre">
     <section class="about-tea">
       <div class="align-image">
         <h2>Sobre o TEA</h2>
 
-        <img src="./src/images/puzzle.png" alt="puzzle image">
+        <img src="./src/images/sobretea.png" alt="puzzle image">
       </div>
         <p>
           O <span>Transtorno do Espectro Autista (TEA)</span> é uma condição caracterizado pela alteração das funções do neurodesenvolvimento do indivíduo, interferindo na capacidade de comunicação, linguagem, interação social e comportamento. É heterogênea, possuindo níveis variados de gravidade e expressão de sintomas como por exemplo epilepsia, dificuldade de aprendizagem ou distúrbios de sono.
         </p>
     </section>
     <section class="about-teassist">
-       <div class="align-itens">
+       <div class="align-itens" id="aplicativo">
           <h2>O TEAssist</h2>
 
           <p> O aplicativo tem como objetivo de proporcionar um ambiente que viabilize o estabelecimento de rotinas de tarefas para o dia a dia da criança com TEA através de um trabalho conjunto dos pais com a equipe de apoio escolar. Levando em consideração que indivíduos com TEA apresentam dificuldade no processamento de estímulos de mudança e acontecimentos imprevisíveis, uma das funcionalidades do aplicativo é criação de eventos que registram atividades atípicas à rotina e que podem ocasionar comportamentos aversivos. </p>
 
-            <a href="/"><i class="fa-brands fa-github"></i>  Documentação </a>
+            <a href="#"><i class="fa-brands fa-github"></i>  Documentação </a>
 
 
         </div>
@@ -88,16 +88,16 @@ include './template/header.php';
       </div>
     </section>
 
-    <section class="project">
+    <section class="project" id="vermais">
       <h2>Acompanhe o Projeto</h2>
       <div class="align-itens">
-        <img src="./src/images/puzzle.png" alt="Foto do Projeto">
+        <img src="./src/images/acompanheproject.png" alt="Foto do Projeto">
         <div class="text-project">
           <p>O <span>TEAssist</span> está sendo desenvolvido através da disciplina de Projeto Integrador  do CST <span>Análise e Desenvolvimento de Sistemas na  Fatec Ferraz de Vasconcelos.</span> Você pode acompanhar as etapas do projeto através do GitHub, onde está disponivel todo o código deste site, das próximas etapas
           do aplicativo e também a documentação técnica do projeto.</p>
           <p >Que tal deixar uma estrela no repositório e acompanhar nossa jornada?</p>
 
-          <a href="#"><i class="fa-solid fa-star"></i> Apoie o Projeto</a>
+          <a href="https://github.com/santos-vinicius/projeto-integrador-1"><i class="fa-solid fa-star"></i> Apoie o Projeto</a>
         </div>
       </div>
     </section>
