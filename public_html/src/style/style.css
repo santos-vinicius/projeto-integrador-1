@@ -19,6 +19,22 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+  background: var(--white);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--yellow-primary);
+  border-radius: 20px;
+}
 /* ESTILIZÇÂO HEADER */
 
 .cor-fundo {
@@ -66,9 +82,10 @@
 }
 
 main .banner img {
-  height: 300px;
+  height: 570px;
   width: 450px;
   border-radius: 15px;
+  border: 1px solid var(--white);
   object-fit: cover;
 }
 
@@ -124,7 +141,9 @@ main .banner-text a:hover {
   border: 1px solid var(--white);
   color: var(--white);
 }
+
 /* ESTILIZAÇAO MAIN */
+
 .container {
   margin-top: 50px;
   display: flex;
@@ -147,7 +166,6 @@ main .banner-text a:hover {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-
   padding: 0 40px;
 }
 
@@ -331,10 +349,11 @@ main .banner-text a:hover {
 }
 
 .container .project .align-itens img {
-  width: 420px;
-  height: auto;
+  width: 450px;
+  height: 200px;
   border: 8px solid var(--blue-primary);
   border-radius: 10px;
+  object-fit: cover;
 }
 
 .container .project .align-itens .text-project {
@@ -375,7 +394,6 @@ main .banner-text a:hover {
 .container .project .align-itens .text-project a {
   display: flex;
   align-items: center;
-
   justify-content: center;
   gap: 5px;
   padding: 9px 30px;
@@ -394,3 +412,259 @@ main .banner-text a:hover {
   background-color: transparent;
   color: var(--blue-primary);
 }
+
+/* ESTILIZAÇAO PAGE SOBRE */
+/* ESTILIZAÇAO MAIN HEADER */
+
+.container-main .banner-dcode {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 50px 60px;
+  width: 100%;
+}
+
+main .banner-dcode img {
+  height: 300px;
+  width: 450px;
+  border-radius: 15px;
+  object-fit: contain;
+}
+
+.banner-text-dcode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+main .banner-text-dcode h1 {
+  color: var(--white);
+  font-family: "Baloo 2";
+  line-height: 35px;
+  text-align: left;
+  width: 90%;
+  font-size: 1.8rem;
+}
+
+main .banner-text-dcode span {
+  color: var(--yellow-primary);
+  font-size: 2.7rem;
+}
+
+main .banner-text-dcode p {
+  color: var(--white);
+  font-family: "Baloo 2";
+  line-height: 20px;
+  text-align: justify;
+  width: 80%;
+  font-size: 1rem;
+  margin: 0;
+}
+
+main .banner-text-dcode a {
+  text-decoration: none;
+  color: var(--blue-primary);
+  font-family: "Baloo 2";
+  font-weight: 700;
+  padding: 10px 25px;
+  background-color: var(--white);
+  border: 1px solid var(--white);
+  transition: 0.4s all ease-in-out;
+  border-radius: 10px;
+  font-size: 1.3rem;
+}
+
+main .banner-text-dcode a:hover {
+  transition: 0.4s all ease-in-out;
+  background-color: var(--blue-primary);
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+/* ESTILIZAÇAO PILARES */
+.container .team-dcode {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 0 30px;
+  gap: 40px;
+}
+
+.container .team-dcode h2 {
+  font-family: "Baloo 2";
+  color: var(--blue-primary);
+  font-size: 1.8rem;
+  font-weight: 900;
+}
+
+.container .team-dcode .align-card-team-dcode {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.container .team-dcode .align-card-team-dcode .card-team {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--white);
+  width: 380px;
+  gap: 6px;
+  margin: 0px;
+  height: 210px;
+  border: 2px solid var(--white);
+  transition: 0.5s all ease-in-out;
+  border-radius: 15px;
+}
+
+.container
+  .team-dcode
+  .align-card-team-dcode
+  .card-team:nth-last-child(1):hover {
+  transition: 0.5s all ease-in-out;
+  border: 2px solid var(--yellow-primary);
+}
+
+.container
+  .team-dcode
+  .align-card-team-dcode
+  .card-team:nth-last-child(2):hover {
+  transition: 0.5s all ease-in-out;
+  border: 2px solid var(--blue-primary);
+}
+
+.container
+  .team-dcode
+  .align-card-team-dcode
+  .card-team:nth-last-child(4):hover {
+  transition: 0.5s all ease-in-out;
+
+  border: 2px solid var(--yellow-primary);
+}
+
+.container
+  .team-dcode
+  .align-card-team-dcode
+  .card-team:nth-last-child(3):hover {
+  transition: 0.5s all ease-in-out;
+  border: 2px solid var(--blue-primary);
+}
+
+.container
+  .team-dcode
+  .align-card-team-dcode
+  .card-team:nth-last-child(5):hover {
+  transition: 0.5s all ease-in-out;
+
+  border: 2px solid var(--yellow-primary);
+}
+
+.container .team-dcode .align-card-team-dcode .card-team .image-perfil {
+  min-width: 180px;
+  height: 205px;
+  background-color: #1ea4d9;
+  border-radius: 10px 35px 35px 10px;
+  object-fit: cover;
+}
+
+.container .team-dcode .align-card-team-dcode .card-team .info-team {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: -40px;
+  width: 100%;
+  margin-left: 10px;
+}
+
+.container .team-dcode .align-card-team-dcode .card-team .info-team .icon-tea {
+  height: 50px;
+  width: 70px;
+  padding-top: 10px;
+  object-fit: fill;
+  bottom: 30px;
+  position: relative;
+  left: 110px;
+}
+
+.container .team-dcode .align-card-team-dcode .card-team .about .function {
+  color: #a3a3a3;
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 400;
+  font-family: "Baloo 2";
+  line-height: 15px;
+}
+
+.container .team-dcode .align-card-team-dcode .card-team .about p {
+  margin: 0;
+  font-size: 0.9rem;
+  font-weight: 700;
+  font-family: "Baloo 2";
+  line-height: 15px;
+}
+
+.container
+  .team-dcode
+  .align-card-team-dcode
+  .card-team
+  .info-team
+  .social-media
+  a {
+  text-decoration: none;
+  color: var(--black);
+}
+
+/* 
+.container
+  .team-dcode
+  .align-card-team-dcode
+  .card-team
+  .info-team
+  .social-media
+  a:nth-last-child(1) {
+  text-decoration: none;
+  color: var(--blue-primary);
+}
+
+.container
+  .team-dcode
+  .align-card-team-dcode
+  .card-team
+  .info-team
+  .social-media
+  a:nth-last-child(2) {
+  text-decoration: none;
+  color: var(--yellow-primary);
+}
+
+.container
+  .team-dcode
+  .align-card-team-dcode
+  .card-team
+  .info-team
+  .social-media
+  a:nth-last-child(3) {
+  text-decoration: none;
+  color: var(--blue-primary);
+}
+
+.container
+  .team-dcode
+  .align-card-team-dcode
+  .card-team
+  .info-team
+  .social-media
+  a:nth-last-child(4) {
+  text-decoration: none;
+  color: var(--yellow-primary);
+} */

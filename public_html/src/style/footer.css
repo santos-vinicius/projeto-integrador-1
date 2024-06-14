@@ -13,6 +13,7 @@
   --black: #434343;
   --gray: #585858;
 }
+
 footer {
   background-color: var(--blue-primary);
   display: flex;
@@ -23,12 +24,14 @@ footer {
   margin-top: 120px;
   border-radius: 10px 10px 0px 0px;
 }
+
 footer p {
   font-family: "Baloo 2";
   color: var(--white);
   font-weight: 500;
   font-size: 1.2rem;
 }
+
 footer span {
   height: 25px;
   width: 2px;

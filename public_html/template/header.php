@@ -10,16 +10,16 @@
 </head>
 <body>
 <nav>
-     <span class="align-logo"> <img src="./src/images/logo_header.svg" alt="Logo TEAssist"><p> TEAssist</p> </span>
+     <a class="align-logo" href="./index.php"><img src="./src/images/logo_header.svg" alt="Logo TEAssist"><p> TEAssist</p> </a>
       <div>
         <ul>
-          <li>Sobre</li>
-          <li>Aplicativo</li>
-          <li>Equipe</li>
+          <li><a href="./index.php#sobre">Sobre</a></li>
+          <li><a href="./index.php#aplicativo">Aplicativo</a></li>
+          <li><a href="./sobre.php">Empresa</a></li>
         </ul>
       </div>
       <button>
-      <a href="/"><img src="./src/images/github_icon.svg" alt="github icon"></a>
+      <a href="https://github.com/santos-vinicius/projeto-integrador-1"><img src="./src/images/github_icon.svg" alt="github icon"></a>
 
       </button>
 </nav>
